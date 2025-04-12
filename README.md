@@ -20,9 +20,7 @@ This is an interactive 2D gravity simulation written in [p5.js](https://p5js.org
 ## 🧲 Physics Model
 
 - Gravitational acceleration:  
-  \[
-  a = G \cdot \frac{M}{r^2}
-  \]
+  $$ a = G \cdot \frac{M}{r^2} $$
 - Each body is affected by:
   - The central mass
   - All other existing bodies (mutual attraction)
